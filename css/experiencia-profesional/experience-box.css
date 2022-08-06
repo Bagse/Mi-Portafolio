@@ -1,0 +1,55 @@
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .experience__box{
+        align-items: center;
+        display: flex;
+        padding-bottom: 4rem;
+        justify-content: space-around;
+    }
+    .experience__img{
+        height: 406px;
+        padding-left: 4rem;
+        width: 752px;
+        box-shadow:  5px 0px;
+    }
+    .experience__info{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .experience__box{
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 4rem;  
+    }
+    .experience__img{
+        height: 300px;
+        padding-left: 1rem;
+        width: 600px; 
+    }
+    .experience__info{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+} 
+
+@media screen and (max-width: 480px) {
+    .experience__box{
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;  
+    }
+    .experience__img{
+        height: 220px;
+        padding-left: .1rem;
+        width: 360px; 
+    }
+    .experience__info{
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+}

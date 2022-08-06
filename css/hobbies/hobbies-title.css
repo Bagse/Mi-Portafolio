@@ -1,0 +1,26 @@
+.hobbies__title{
+    color: var(--cor-menu-link);
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .hobbies__title{
+        font-size: 1.75rem;
+    }
+}
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .hobbies__title{
+        font-size: 1.20rem;
+    }
+}     
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    .hobbies__title{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,18 @@
+.skills__line{
+    display: grid;
+    width: 90%;
+    max-width: 1600px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+}
+
+.skills__box{
+    text-align: center;
+}
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .skills__line{
+        margin: 0 auto;
+    }
+}

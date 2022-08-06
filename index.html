@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/menu/menu-title.css">
+    <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/menu/menu-link.css">
+    <link rel="stylesheet" href="css/menu/menu-list.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/perfil/title-network.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/skills/skills-title.css">
+    <link rel="stylesheet" href="css/skills/skills-line.css">
+    <link rel="stylesheet" href="css/skills/skills-img.css">
+    <link rel="stylesheet" href="css/skills/skills-name.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/hobbies/hobbies-title.css">
+    <link rel="stylesheet" href="css/hobbies/hobbies-line.css">
+    <link rel="stylesheet" href="css/hobbies/hobbies-img.css">
+    <link rel="stylesheet" href="css/hobbies/hobbies-name.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/formacion-academica/formacion-titulo.css">
+    <link rel="stylesheet" href="css/formacion-academica/formacion-cursos.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/experiencia-profesional/experience-box.css">
+    <link rel="stylesheet" href="css/experiencia-profesional/experience-box-reverso.css">
+    <link rel="stylesheet" href="css/experiencia-profesional/experience-botones.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/contacto/contacto-box.css">
+    <link rel="stylesheet" href="css/contacto/contacto-boton.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!-- Icono de la página -->
+    <link rel="icon" href="assets/portfoliop_icon.ico" type="image/x-icon">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <div class="cabecera">
+            <header class="menu__header">
+                <h3 class="menu__title">Brian Gómez</h3>
+            </header>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a class="menu__link" id="sobre__cabecera" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="menu__list__item"><a class="menu__link" id="skills__cabecera" href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a class="menu__link" id="hobbies__cabecera" href="#hobbies">Hobbies</a></li>
+                    <li class="menu__list__item"><a class="menu__link" id="formacion__cabecera" href="#formacion">Formación</a></li>
+                    <li class="menu__list__item"><a class="menu__link" id="proyectos__cabecera" href="#xp">Proyectos</a></li>
+                    <li class="menu__list__item"><a class="menu__link" id="correo__cabecera" href="#contacto">arongomse@gmail.com</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title">
+        <div class="title__div">
+            <img class="title__imagen" src="assets/img-perfil.png">
+            <div class="title__container">
+                <h2 class="title__bio">Hola, mi nombre es <font color= "#ffd000">Brian Arón Gómez Sequeiros</font> y soy Frond End Developer</h2>
+                <h3 class="title__subsection">Soy estudiante en Ingeniería de Sistemas y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <ul class="title__network">
+                    <li class="title__network__item"><a class="tittle__network__color" href="https://github.com/Bagse" target="_blank">Github <img class="tittle__network__icon" src="assets\github_icon.svg"></a></li>
+                    <li class="title__network__item"><a class="tittle__network__color" href="https://www.linkedin.com/in/brian-ar%C3%B3n-g%C3%B3mez-sequeiros/" target="_blank">Linkedin <img class="tittle__network__icon" src="assets\linkedin_icon.svg"></a></li>
+                    <li class="title__network__item"><a class="tittle__network__color" href="https://www.instagram.com/aron.gomez7/" target="_blank">Instagram <img class="tittle__network__icon"  src="assets\instagram_icon.svg"></a></li>
+                    <li class="title__network__item"><a class="tittle__network__color" href="download/Curriculum-Vitae.pdf" target="_blank" download="Currículum Vitae.pdf">Currículum <img class="tittle__network__icon" src="assets\cv_icon.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph">Amante por la tecnología y todo lo que está relacionado a ella. Soy de Perú y tengo 24 años, desde niño me pareció bastante interesante el desarrollo de videojuegos, de cómo funcionaba internet en si; por lo que en 2018 busqué cursos para aprender programación con Python realizando juegos simples y luego me interesé en el desarrollo web y pude crear una radio online.</p>
+            <p class="about__paragraph">Actualmente me encuentro estudiando en el proyecto Oracle One en Alura Latam desde Abril del 2022 para convertirme en un Desarrollador Front End.</p>
+            <p class="about__paragraph">Trabajé en otros sectores en donde aprendí a trabajar en equipo y liderar. Me gusta no parar de aprender y superarme cada día más en las metas que me propongo.</p>
+            <!--La firma acá-->
+            <img src="assets\signature.png">
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Skills</h3>
+        <div class="skills__line">
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img class="img__html" src="assets\html_icon.png" alt="icono html"></li>
+                    <li class="skills__name"> HTML 5</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img class="img__js" src="assets\js_icon.png" alt="icono javascript"></li>
+                    <li class="skills__name">Javascript</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img class="img__css" src="assets\css_icon.png" alt="icono css"></li>
+                    <li class="skills__name">CSS</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img class="img__python" src="assets\python_icon.png" alt="icono python"></li>
+                    <li class="skills__name">Python</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img class="img__react" src="assets\react_icon.png" alt="icono react"> </li>
+                    <li class="skills__name">React</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img class="img__java" src="assets\java_icon.png" alt="icono java"> </li>
+                    <li class="skills__name">Java</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h3 class="hobbies__title">Hobbies</h3>
+        <div class="hobbies__line">
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"><img  class="gameboy" src="assets\gameboy_icon.png" alt="icono gameboy"></li>
+                    <li class="hobbies__name">Jugar videojuegos</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img class="series" src="assets\series_icon.png" alt="icono netflix"></li>
+                    <li class="hobbies__name">Ver series y películas</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img class="musica" src="assets\musica_icon.png" alt="icono música"></li>
+                    <li class="hobbies__name">Escuchar música</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"><img class="viajar" src="assets\viajar_icon.png" alt="icono avión"></li>
+                    <li class="hobbies__name">Viajar</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img class="programar" src="assets\programar_icon.png" alt="icono ventana"> </li>
+                    <li class="hobbies__name">Programar</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img class="leer" src="assets\leer_icon.png" alt="icono libro"> </li>
+                    <li class="hobbies__name">Leer</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+        <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h2 class="academic__title" >Formación académica</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="formacion__img" src="assets\uac_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Ingeniería de Sistemas</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>En curso - UAC</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="formacion__img" src="assets\freecodecamp_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Formación Responsive Web Design</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2021 - FreeCodeCamp</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class="formacion__img" src="assets\alura_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Formación Desarrollador Front End</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>En curso - Oracle + Alura</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="xp">
+        <h2 class="experience__section__title" >Experiencia Profesional</h2>
+        <div class="experience__box">
+            <img class="experience__img" src="assets\proyect_encryp.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Encriptador de texto</h2>
+                <h3 class="experience__text">Challenge Alura Codificador </h3>
+                <div class="experience__description">
+                        <span class="experience__repo"><a href="https://github.com/Bagse/encriptador-de-texto-challenge.github.io" target="_blank"><button class="experience__botao--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href="https://bagse.github.io/encriptador-de-texto-challenge.github.io/" target="_blank"><button class="experience__botao--demo">Ver demo</button></a></span>
+                </div>
+            </div>
+        </div>  
+
+        <div class="experience__box-reverso">
+            <img class="experience__img-reverso" src="assets\proyect_tienda_juegos.png">
+            <div class="experience__info-reverso">
+                <h2 class="experience__title">Tienda de Videojuegos</h2>
+                <h3 class="experience__text">Proyecto del curso Grid Layout</h3>
+                <div class="experience__description">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <span class="experience__repo"><a href="https://github.com/Bagse/Curso-CSS-grid-layout.github.io" target="_blank"><button class="experience__botao--repo">Repositório</button></a></span>
+                     <span class="experience__demo"><a href="https://bagse.github.io/Curso-CSS-grid-layout.github.io/" target="_blank"><button class="experience__botao--demo">Ver demo</button></a></span>
+                </div>
+            </div>
+        </div>  
+
+        <div class="experience__box">
+            <img class="experience__img" src="assets\proyect_tienda_fruteria.png">
+            <div class="experience__info">
+                <h2 class="experience__title">Frutería</h2>
+                <h3 class="experience__text">Proyecto del curso Arquitectura CSS</h3>
+                <div class="experience__description">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo"><a href="https://github.com/Bagse/Curso-arquitectura-css.github.io" target="_blank"><button class="experience__botao--repo">Repositório</button></a></span>
+                        <span class="experience__demo"><a href="https://bagse.github.io/Curso-arquitectura-css.github.io/" target="_blank"><button class="experience__botao--demo">Ver demo</button></a></span>
+                </div>
+            </div>
+        </div>  
+
+        <div class="experience__box-reverso">
+            <img class="experience__img-reverso" src="assets\proyect_cursos.png">
+            <div class="experience__info-reverso">
+                <h2 class="experience__title">Cursos Alura</h2>
+                <h3 class="experience__text">Proyecto del curso Flexbox</h3>
+                <div class="experience__description">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <span class="experience__repo"><a href="https://github.com/Bagse/Curso-flexbox.github.io"><button class="experience__botao--repo">Repositório</button></a></span>
+                    <span class="experience__demo"><a href="https://bagse.github.io/Curso-flexbox.github.io/"><button class="experience__botao--demo">Ver demo</button></a></span>
+                </div>
+            </div>
+        </div>     
+    </section>
+    <!-- Sección de Contacto -->
+    <section class="formcontato" id="contacto">
+        <div  class="formcontato__contacto">
+            <div class="formcontato--esquerda">
+                <img class="formcontato__img" src="assets\contact_image.png">
+            </div>
+            <div class="formcontato__text">
+                <h2 class="formcontato__title">Contacto</h2>
+                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                <form class="formcontato__form" id="formulario" name="formulario" action="https://formsubmit.co/52c1ac64956fd922f4bfcf6c3c88718b" method="post">
+                    
+                    <label for="nombre" class="form__label">Nombre</label>
+                    <input class="formcontato__input" id="name" type="text" name="nombre" placeholder="Escribe tu nombre">
+
+                    <label for="email" class="form__label">Email</label>
+                    <input class="formcontato__input" id="email" type="email" name="email" placeholder="email@dominio.com">
+
+                    <label for="asunto" class="form__label">Asunto</label>
+                    <input class="formcontato__input" id="asunto" type="text" name="asunto" placeholder="Escribe el asunto">
+
+                    <label for="mensaje" class="form__label">Mensaje</label>
+                    <textarea class="formcontato__textarea" rows="5" cols="39" id="mensaje" name="mensaje"  placeholder="Escribe el mensaje"></textarea>
+
+                    <button type="submit" class="formcontato__botao" value="enviar">Enviar mensaje</button>
+                </form>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>&copy Desarrollado por Brian Gómez - 2022</p>
+        </div>
+        <div class="footer__redes">
+            <a href="https://github.com/Bagse" target="_blank">
+                <img class="footer__imagen" src="assets/github_icon.svg" alt="logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/brian-ar%C3%B3n-g%C3%B3mez-sequeiros/" target="_blank">
+                <img class="footer__imagen" src="assets/linkedin_icon.svg" alt="logo linkedin">
+            </a>
+            <a href="https://www.instagram.com/aron.gomez7/" target="_blank">
+                <img class="footer__imagen" src="assets/instagram_icon.svg" alt="logo instagram">
+            </a>
+        </div>
+    </section>
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

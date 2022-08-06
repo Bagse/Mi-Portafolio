@@ -1,0 +1,52 @@
+.cabecera{
+    background: var(--cor-navegacion);
+}
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .cabecera{
+        display: flex;
+        align-items: center;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+}
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    /* Menú */
+    .cabecera{
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        padding-left: .9rem;
+        padding-right: .9rem;
+        justify-content: space-between;
+    }
+    #sobre__cabecera, #skills__cabecera, #hobbies__cabecera, #formacion__cabecera, #proyectos__cabecera{
+        display: none;
+    } 
+    .menu__title, .menu__link{
+        font-size: 94%; 
+    }
+}     
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    .cabecera{
+        max-width: 100%;
+        padding-left: .2rem;
+        padding-right: .2rem;
+        justify-content: center;
+    }
+    #sobre__cabecera, #skills__cabecera, #hobbies__cabecera, #formacion__cabecera, #proyectos__cabecera{
+        display: none;
+    }
+    .menu__title, .menu__link{
+        font-size: 90%; 
+    } 
+}
+
+

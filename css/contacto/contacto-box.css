@@ -1,0 +1,115 @@
+.formcontato__contacto{
+    display: flex;
+}
+
+.formcontato__title{
+    color: var(--cor-menu-title);
+    font-weight: bold;
+}
+
+.formcontato__subtext{
+    color: var(--cor-de-link);
+    font-weight: normal;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+}
+
+.formcontato__input{
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 0 .7rem;
+    
+}
+
+.form__label{
+    color: var(--cor-de-link);
+    display: block;
+    margin: 0 0 .7rem;
+}
+
+.formcontato__textarea{
+    border: none;
+    border-radius: 5px;
+}
+    
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .formcontato__img{
+        border: none;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px;
+    }
+    .formcontato__text{
+        padding-left: 2.5rem;
+    }
+    .formcontato__title{
+        font-size: 1.75rem;
+    }
+    .formcontato__input{
+        padding: .4rem .4rem;
+    }
+    .form__label{
+        font-size: 1.2rem;
+    }
+    .formcontato__textarea{
+        padding: .4rem .4rem;
+    }
+}
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .formcontato__img{
+        display: none;
+    }
+    .formcontato__text{
+        padding-left: .9rem;
+    }
+    .formcontato__title{
+        font-size: 1.20rem;
+    }
+    .formcontato__subtext{
+        font-size: .9rem;
+    }
+    .formcontato__input{
+        padding: .2rem .2rem;
+    }
+    .form__label{
+        font-size: 1rem;
+    }
+    .formcontato__textarea{
+        padding: .4rem .4rem;
+    }
+} 
+
+/*Mobile falta revisar esto*/
+@media screen and (max-width: 480px) {
+    .formcontato__img{
+        display: none;
+    }
+    .formcontato__text{
+        padding-left: .5rem;
+    }
+    .formcontato__title{
+        font-size: 1rem;
+    }
+    .formcontato__subtext{
+        font-size: .8rem;
+    }
+    .formcontato__input{
+        padding: .3rem;
+        padding-right: 10rem;
+        align-self: baseline;
+    }
+    .form__label{
+        font-size: .8rem;
+    }
+    .formcontato__textarea{
+        align-self: baseline;
+        padding-right: 1rem;
+    }
+}

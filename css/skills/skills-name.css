@@ -1,0 +1,21 @@
+.skills__name{
+    color: var(--cor-menu-link);
+    padding: .75rem .1rem;
+    text-align: center;
+}
+
+
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .skills__name{
+        font-size: .9rem;
+    }
+}   
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    .skills__name{
+        font-size: .8rem;
+    }
+}

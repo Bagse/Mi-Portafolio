@@ -1,0 +1,12 @@
+.skills__img{
+    background: var(--cor-de-link);
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    padding: 1.25rem 1rem;
+}
+
+.img__html, .img__js, .img__css, .img__python, .img__react, .img__java{
+    height: 40px;
+    width: 40px;
+}

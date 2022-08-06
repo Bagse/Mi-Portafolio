@@ -1,0 +1,9 @@
+.menu__link{
+    color: var(--cor-menu-link);
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    color: var(--cor-menu-title);
+}

@@ -1,0 +1,33 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fondo: #232020;
+   --cor-de-link: #f8f9fa;
+   --cor-menu-title: #ffd000;
+   --cor-navegacion: #323031;
+   --cor-menu-link: #f9f9f9;
+   --cor-boton-uno: #1BFD9C;
+   --cor-boton-sombra-uno: #82ffc9;
+   --cor-boton-dos: #2ec4b6;
+   --cor-boton-sombra-dos: #8eecf5;
+   --cor-footer: #02c39a;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+

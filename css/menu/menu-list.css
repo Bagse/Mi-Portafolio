@@ -1,0 +1,8 @@
+.menu__list{
+    display: flex;
+}
+
+.menu__list__item{
+    display: flex;
+    justify-content: space-between;
+}

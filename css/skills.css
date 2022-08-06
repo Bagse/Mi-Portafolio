@@ -1,0 +1,25 @@
+.skills{
+    background: var(--cor-de-fondo);
+}
+
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .skills{
+        padding: 2rem 7rem;
+    }
+}
+
+/*Tablet*/
+@media screen  and (max-width: 767px) {
+    .skills{
+        padding: 2rem 1rem;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    .skills{
+        padding: 2rem .5rem;
+    }
+}
