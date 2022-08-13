@@ -1,5 +1,5 @@
 # Challenge-One-Portafolio.github.io
-![image](https://user-images.githubusercontent.com/102260190/183232758-6c902e33-0229-496b-b5bc-498dcf4d7810.png)
+![image](https://user-images.githubusercontent.com/102260190/184459096-35146ced-ebd4-458a-a8de-47abda9f2240.png)
 
 link: https://bagse.github.io/Challenge-One-Portafolio.github.io/
 
