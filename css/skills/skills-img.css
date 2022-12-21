@@ -6,7 +6,7 @@
     padding: 1.25rem 1rem;
 }
 
-.img__html, .img__js, .img__css, .img__python, .img__react, .img__java{
-    height: 40px;
-    width: 40px;
+.img__html, .img__js, .img__css, .img__python, .img__mysql, .img__oracle {
+    height: 50px;
+    width: 100%;
 }

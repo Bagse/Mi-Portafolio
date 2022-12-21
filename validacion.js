@@ -9,53 +9,53 @@ document.addEventListener("DOMContentLoaded", function() {
     //validar nombre
     var name = document.getElementById('name').value;
     if(name.length == 0 || name.length <= 2) {
-        swal('Nombre Obligatorio');
+        swal("Opps!", 'Nombre Obligatorio!! Debe contener mínimo 3 caracteres y máximo 20.', "warning");
         return;
     }
 
     if(name.length >= 20){
-        swal("El nombre debe contener máximo 20 caracteres");
+        swal("Opps!", "El nombre debe contener máximo 20 caracteres", "warning");
         return;
     }
     
     //validar email
     var email = document.getElementById('email').value;
     if (email.length == 0) {
-        swal("Email obligatorio");
+        swal("Opps!", "Email obligatorio", "warning");
         return;
     }
 
-    if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,10})+$/)) {
-        swal('El E-mail es inválido, sugerencia:  example@gmail.com');
+    if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,10})+$/).test(email)) {
+        swal("Opps!", 'El email es inválido!! Inténtelo de nuevo :) Ejemplo:  example@gmail.com', "warning");
         return false;
     }
 
     //validar asunto
     var asunto = document.getElementById('asunto').value;
     if (asunto.length == 0) {
-        swal('Asunto Obligatorio');
+        swal("Opps!", 'Asunto Obligatorio', "warning");
         return;
     }
 
     if (asunto.length <= 3) {
-        swal('Cantidad de caracteres inválidos en el Asunto!');
+        swal("Opps!", 'Cantidad de caracteres inválidos en el Asunto!', "warning");
         return;
     }
 
     if(asunto.length >= 30){
-        swal("El asunto debe contener máximo 30 caracteres");
+        swal("Opps!", "El asunto debe contener máximo 30 caracteres", "warning");
         return;
     }
 
     //validar mensaje
     var mensaje = document.getElementById('mensaje').value;
     if(mensaje.length == 0 || mensaje.length <= 3) {
-        swal('Mensaje Obligatorio');
+        swal("Opps!", 'Mensaje Obligatorio!! Debe contener mínimo 4 caracteres y máximo 120.', "warning");
         return;
     }
 
     if (mensaje.length >= 500) {
-        swal('El mensaje debe contener máximo 500 caracteres!');
+        swal("Opps!", 'El mensaje debe contener máximo 500 caracteres!', "warning");
         return;
     }
 
