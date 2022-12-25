@@ -17,7 +17,7 @@
 
 
 /*PC*/
-@media screen and (min-width: 768px) and (max-width: 1600px) {
+@media screen and (min-width: 768px) and (max-width: 2000px) {
     .title__div{
         align-items: center;
         display: flex;

@@ -38,7 +38,7 @@
 }
     
 /*PC*/
-@media screen and (min-width: 768px) and (max-width: 1600px) {
+@media screen and (min-width: 768px) and (max-width: 2000px) {
     .formcontato__img{
         border: none;
         border-radius: 5px;

@@ -73,10 +73,11 @@
     transform: translateX(15em);
 }
 
-/*Mobile falta revisar esto*/
-@media screen and (min-width: 0px) and (max-width: 480px) {
+
+/*PC*/
+@media screen and (min-width: 768px) and (max-width: 2000px) {
     .experience__botao--repo, .experience__botao--demo{
-        font-size: .5rem;
+        font-size: 1rem;
     }
 }
 
@@ -85,11 +86,11 @@
     .experience__botao--repo, .experience__botao--demo{
         font-size: .7rem;
     }
-}     
+} 
 
-/*PC*/
-@media screen and (min-width: 768px) and (max-width: 1600px) {
+/*Mobile*/
+@media screen and (min-width: 0px) and (max-width: 480px) {
     .experience__botao--repo, .experience__botao--demo{
-        font-size: 1rem;
+        font-size: .5rem;
     }
 }

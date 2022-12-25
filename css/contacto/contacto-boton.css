@@ -13,7 +13,7 @@
 
 
 /*PC*/
-@media screen and (min-width: 768px) and (max-width: 1600px) {
+@media screen and (min-width: 768px) and (max-width: 2000px) {
     .formcontato__botao{
         transition: 1.5s all;
         padding: .5rem .4rem;
