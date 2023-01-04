@@ -1,7 +1,7 @@
 # Challenge-One-Portafolio.github.io
 ![image](https://user-images.githubusercontent.com/102260190/184459096-35146ced-ebd4-458a-a8de-47abda9f2240.png)
 
-link: https://bagse.github.io/Challenge-One-Portafolio.github.io/
+link: https://bagse.github.io/Mi-Portafolio/
 
 ¡Bienvenido al primer desafío del Challenge Fron End!
 En esta sprint, vamos a trabajar en la construcción de un Portafolio, para que puedas mostrar tus proyectos a posibles reclutadores.
