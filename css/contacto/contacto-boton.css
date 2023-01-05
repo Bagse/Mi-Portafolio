@@ -36,6 +36,7 @@
 @media screen and (max-width: 480px) {
     .formcontato__botao{
         padding: .5rem .4rem;
+        font-size: 1rem;
         align-self: flex-start;
     }
 }

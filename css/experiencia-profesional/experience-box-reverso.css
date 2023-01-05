@@ -39,7 +39,7 @@
     }
 } 
 
-
+/*Mobile*/
 @media screen and (max-width: 480px) {
     .experience__box-reverso{
         align-items: center;
@@ -48,8 +48,10 @@
     }
     .experience__img-reverso{
         padding-left: .1rem;
+        object-fit: cover;
         height: 220px;
         width: 360px;
+        max-width: 100%;
     }
     .experience__info-reverso{
         padding-left: .5rem;

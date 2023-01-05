@@ -45,8 +45,10 @@
     }
     .experience__img{
         height: 220px;
+        object-fit: cover;
         padding-left: .1rem;
         width: 360px; 
+        max-width: 100%;
     }
     .experience__info{
         padding-left: .5rem;
