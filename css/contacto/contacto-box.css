@@ -98,7 +98,7 @@
         font-size: 1.3rem;
     }
     .formcontato__subtext{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .formcontato__input{
         padding: .3rem;
@@ -112,5 +112,6 @@
         align-self: baseline;
         padding-right: 1rem;
         max-width: 100%;
+        width: 20rem;
     }
 }
