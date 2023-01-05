@@ -20,6 +20,6 @@
 /*Mobile*/
 @media screen and (max-width: 480px) {
     .skills__title{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }

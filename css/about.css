@@ -49,9 +49,9 @@
         justify-content: center;
     }
     .about__title{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .about__paragraph{
-        font-size: .7rem;
+        font-size: 1.1rem;
     }
 }

@@ -14,6 +14,6 @@
 /*Mobile*/
 @media screen and (max-width: 480px) {
     .hobbies__name{
-        font-size: .8rem;
+        font-size: 1.1rem;
     }
 }
