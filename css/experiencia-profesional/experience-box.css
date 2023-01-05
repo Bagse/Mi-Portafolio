@@ -12,6 +12,8 @@
         padding-left: 4rem;
         width: 752px;
         box-shadow:  5px 0px;
+        object-fit: cover;
+        max-width: 100%;
     }
     .experience__info{
         padding-left: 2rem;
@@ -30,6 +32,8 @@
         height: 300px;
         padding-left: 1rem;
         width: 600px; 
+        object-fit: cover;
+        max-width: 100%;
     }
     .experience__info{
         padding-left: 1rem;
