@@ -48,13 +48,16 @@
 @media screen and (max-width: 480px) {
     .title__network{
         display: flex;
-        flex-wrap: nowrap
+        flex-wrap: nowrap;
     }
     .title__network__item{
         font-size: .9rem;
     }
+    .tittle__network__color{
+        font-size: 1rem;
+    }
     .tittle__network__icon{
-        height: 18px;
-        width: 18px;
+        height: 20px;
+        width: 20px;
     }
 }

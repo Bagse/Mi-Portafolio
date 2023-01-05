@@ -39,13 +39,13 @@
         max-width: 100%;
         padding-left: .2rem;
         padding-right: .2rem;
-        justify-content: center;
+        justify-content: space-around;
     }
     #sobre__cabecera, #skills__cabecera, #hobbies__cabecera, #formacion__cabecera, #proyectos__cabecera{
         display: none;
     }
     .menu__title, .menu__link{
-        font-size: 90%; 
+        font-size: 1.2rem; 
     } 
 }
 

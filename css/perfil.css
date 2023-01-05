@@ -64,13 +64,13 @@
         padding: 4rem .5rem;
     }
     .title__bio{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .title__subsection{
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     .title__imagen{
-        height: 140px;
-        width: 140px;
+        height: 160px;
+        width: 160px;
     }
 }
