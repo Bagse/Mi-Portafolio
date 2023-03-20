@@ -23,8 +23,8 @@
         transition: 1.5s all;
     }
     .tittle__network__icon{
-        height: 20px;
-        width: 20px;
+        height: 25px;
+        width: 25px;
     }
 }
 
@@ -39,8 +39,8 @@
         font-size: 1rem;
     }
     .tittle__network__icon{
-        height: 20px;
-        width: 20px;
+        height: 24px;
+        width: 24px;
     }
 }     
 
